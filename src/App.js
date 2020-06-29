@@ -1,24 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import Welcome from './mycomponent/Welcome';
+// import Arrow from './mycomponent/Arrow';
+import Welcome from './mycom/Welcome';
+import Hello from './mycom/Hello';
+import Condition1 from './mycom/Condition';
+import Refresh from './mycom/Refresh';
+import Rendom_dom from './component/Rendom_dom';
+import Finddomnode from './component/Finddomnode';
+import Forms from './component/Forms';
+import Signup from './forms/Signup';
+import Text from './text/Text';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Text></Text>
     </div>
   );
 }
