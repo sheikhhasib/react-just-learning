@@ -19,6 +19,7 @@ class Text extends Component {
             <div>
                 <textarea name="desc" placeholder="please insert your message" onChange={this.onChangeTextarea}/>
                 <p>{this.state.desc}</p>
+                <button className="btn btn-warning">save it</button>
             </div>
         );
     }
